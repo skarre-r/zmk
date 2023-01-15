@@ -8,5 +8,7 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      config_path: corne/config
       build_matrix_path: corne/build.yaml
+      config_path: corne/config
+      fallback_binary: bin
+      archive_name: corne_firmware
