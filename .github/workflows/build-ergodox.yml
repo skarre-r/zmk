@@ -1,8 +1,8 @@
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "ergodox/**"
+  # push:
+  #   paths:
+  #     - "ergodox/**"
 
 jobs:
   build:

@@ -1,8 +1,8 @@
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "corne/**"
+  # push:
+  #   paths:
+  #     - "corne/**"
 
 jobs:
   build:
