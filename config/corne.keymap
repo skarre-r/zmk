@@ -9,11 +9,6 @@
 #define SECOND  2
 #define THIRD   3
 
-// Display
-&nice_view_spi {
-    cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
-};
-
 
 / {
     keymap {
@@ -41,7 +36,7 @@
                 &trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5       &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &trans
                 &bt BT_PRV &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &bt BT_NXT
                 &trans &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans                            &trans &trans &ext_power EP_TOG
+                &trans &trans &trans                            &trans &trans &ext_power EP_ON
             >;
         };
         // -------------------------------------------------------------------------------
